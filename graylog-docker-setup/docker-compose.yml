@@ -47,7 +47,7 @@ services:
       GRAYLOG_MESSAGE_JOURNAL_MAX_SIZE: 2gb
     ports:
     - "5044:5044/tcp"   # Beats
-    - "5140:5140/udp"   # Syslog
+    - "1514:1514/udp"   # Syslog
     - "5140:5140/tcp"   # Syslog
     - "5555:5555/tcp"   # RAW TCP
     - "5555:5555/udp"   # RAW TCP
