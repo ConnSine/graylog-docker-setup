@@ -44,7 +44,7 @@ services:
       GRAYLOG_HTTP_EXTERNAL_URI: "http://localhost:9000/"
       GRAYLOG_ELASTICSEARCH_HOSTS: "http://opensearch:9200"
       GRAYLOG_MONGODB_URI: "mongodb://mongodb:27017/graylog"
-      GRAYLOG_MESSAGE_JOURNAL_MAX_SIZE: 2gb
+      GRAYLOG_MESSAGE_JOURNAL_MAX_SIZE: 3gb
     ports:
     - "5044:5044/tcp"   # Beats
     - "1514:1514/udp"   # Syslog
